@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">          
+    </head>
+    <body>
+     <script>
+     var rollDice=function(maxvalue){
+         var tmp = Math.random()*maxvalue;
+         var n = Math.ceil(tmp);
+         console.log('Just rolled the dice and got'+n);
+         return n;
+
+     };
+     var n0,n1,n2;
+     n0 = rollDice(34);
+     n1 = rollDice(34);
+     n2 = rollDice(34);
+
+     console.log(n0);
+     console.log(n1);
+     console.log(n2);
+     </script>   
+    </body>
+</html>
